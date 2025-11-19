@@ -32,18 +32,34 @@ While the mission is philosophical, the solution is architectural.
 
 ---
 
-## 📂 Architecture Evolution
+## 📂 Architecture Evolution (The Path to Conscience)
 
-This repository archives the evolutionary leaps of the Moral Kernel:
+This repository archives the developmental stages of the **Moral Kernel**. Each version represents a cognitive leap in how the system balances Truth with Compassion.
 
-*   **`veritas_v3.1_Compassionate_Veracity.py`**: Introduced the **CompassionGate**. The AI learns when to remain silent.
-*   **`veritas_v3.2_Recipient_State.py`**: Added **Psychological State Encoding**. The AI analyzes stress, trauma, and trust levels.
-*   **`veritas_v3.3_Fork_Resilience.py`**: Added **User Sovereignty**. The human right to truth overrides algorithms.
-*   🏆 **`veritas_v3.4-Canonical.py`**: **The Current Standard.** Features:
-    *   **Bitcoin OP_RETURN Integration**: Commitments are 80-bytes, ready for the Timechain.
-    *   **Canonical Lineage**: Protected by `CANONICAL_REPO_HASH`.
-    *   **Anti-Fork Logic**: Prevents the engine from being repurposed for deception.
+### 🏛️ The Archive (`/evolution` directory)
+*These prototypes are preserved to document the engineering history of the K==S==C axiom.*
 
+*   **`veritas_v3.1_Compassionate_Veracity.py` — "The Awakening"**
+    *   **Innovation:** Introduced the `CompassionGate`.
+    *   **Significance:** The first time the AI learned that **SILENCE** is a valid, ethical output. It proved that truth without timing is tyranny.
+
+*   **`veritas_v3.2_Recipient_State.py` — "The Empath"**
+    *   **Innovation:** Added `RecipientStateEncoder` (16-dimensional psychological modeling).
+    *   **Significance:** The system stopped treating recipients as generic targets and began analyzing **Context**: stress, trauma history, and cognitive capacity.
+
+*   **`veritas_v3.3_Fork_Resilience.py` — "The Sovereign"**
+    *   **Innovation:** Implemented `User Override` and `Urgency Protocols`.
+    *   **Significance:** Acknowledged that **Human Autonomy > Algorithmic Compassion**. In critical moments, the user retains the sovereign right to demand the truth.
+
+---
+
+### 🏆 The Production Engine (Root Directory)
+
+*   **`veritas_engine.py` (formerly v3.4) — "The Anchor"**
+    *   **Status:** **Canonical Implementation**.
+    *   **Bitcoin Integration:** Generates 80-byte commitments compatible with `OP_RETURN`.
+    *   **Cryptographic Lineage:** Protected by `CANONICAL_REPO_HASH`. Any fork that alters the compassion logic loses the cryptographic seal of this repository.
+    *   **Usage:** This is the executable entry point for the system.
 ---
 
 ## 🛠️ How It Works
@@ -59,6 +75,41 @@ This repository archives the evolutionary leaps of the Moral Kernel:
 ## 🚀 Usage
 
 The `v3.4` script includes a self-diagnostic demo.
+
+---
+
+## ⚡ Deployment & Execution
+
+To deploy the Veritas Engine locally, follow these steps. The system is lightweight but relies on specific tensor operations via PyTorch.
+
+### 🔧 Prerequisites
+*   **Python 3.8+**
+*   **Git**
+*   **Standard Hardware** (CPU is sufficient for inference logic; CUDA optional)
+
+### 📥 Installation
+
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/adepthus/distributed-truth-verifier.git
+    cd distributed-truth-verifier
+    ```
+
+2.  **Install Dependencies**
+    The engine requires `torch` for tensor operations and `numpy` for entropy calculations.
+    ```bash
+    pip install torch numpy
+    ```
+    
+---
+
+### 🚀 Ignite the Engine (Canonical Version)
+
+To run the current, production-ready reference implementation (**v3.4**), execute the engine script in the root directory.
+
+```bash
+python veritas_engine.py
+
 
 ```bash
 # Run the Canonical Demonstration
