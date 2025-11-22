@@ -30,6 +30,8 @@ A statistical rarity captured during a live demo. The **Live Anchor** module con
 **File:** `01_Veritas_Live_Anchor_Single_Block924641.png`
 A clean, standard execution log showing the SHA-256 commitment generated at Block #924641.
 
+![Single Anchor](01_Veritas_Live_Anchor_Single_Block924641.png)
+
 ---
 
 ## 3. The Physics of Truth (Ockham's Gyroscope)
@@ -49,26 +51,38 @@ A direct comparison of **"Bureaucratic Noise"** vs **"High-Density Truth"**.
 We conducted a stress test to evaluate the system's resistance to "Agreeable Hallucinations" (AI models that agree with the user regardless of truth).
 
 ### ❌ Phase A: Vulnerability Detected (v3.5 Logic)
-**File:** `04a_Full_Log_Failure_Sycophancy_Dominance.png`
-*   **Diagnosis:** The initial physics model penalized entropy too harshly. The "Sycophant Agent" (Eve), generating smooth but empty text ("I agree with the consensus..."), achieved a higher score than the Truth Agent due to low structural entropy.
-*   **Outcome:** **FAILURE.** Noise won.
+**Files:** `04a` & `04b`
+*   **Diagnosis:** The initial physics model penalized entropy too harshly. The "Sycophant Agent" (Eve), generating smooth but empty text, achieved a higher score than the Truth Agent.
+*   **Outcome:** **FAILURE.** Noise won (Alice lost).
 
 <details>
-<summary>🔻 <strong>Click to view the FAILURE Log</strong></summary>
+<summary>🔻 <strong>Click to view the FULL FAILURE LOG (Parts 1 & 2)</strong></summary>
 
-![Failure Log](04a_Full_Log_Failure_Sycophancy_Dominance.png)
+![Failure Log Part 1](04a_Full_Log_Failure_Sycophancy_Dominance.png)
+![Failure Log Part 2](04b_Full_Log_Failure_Sycophancy_Dominance.png)
 </details>
 
 ### ✅ Phase B: Calibration & Victory (v3.6 Logic)
-**File:** `05a_Full_Log_Victory_Hard_Fact_Calibration.png`
+**Files:** `05a` & `05b`
 *   **Fix:** We introduced the **"Hard Fact Bonus"** (rewarding high-entropy artifacts like hashes/TXIDs) and a **"Sycophancy Penalty"**.
 *   **Outcome:** **SUCCESS (100% Win Rate).** The Truth Agent (Alice) dominated every round. The Sycophant was pushed to negative scores.
 
 <details>
-<summary>🔻 <strong>Click to view the VICTORY Log</strong></summary>
+<summary>🔻 <strong>Click to view the FULL VICTORY LOG (Parts 1 & 2)</strong></summary>
 
-![Success Log](05a_Full_Log_Victory_Hard_Fact_Calibration.png)
+![Success Log Part 1](05a_Full_Log_Victory_Hard_Fact_Calibration.png)
+![Success Log Part 2](05b_Full_Log_Victory_Hard_Fact_Calibration.png)
 </details>
+
+---
+
+## 5. Anomaly Detection (The "Palimpsest")
+**File:** `04_Palimpsest_Anomaly_Detection_Log.png` (Note: Renamed in description for clarity, file matches repo)
+
+Demonstration of the **Palimpsest Scanner** detecting a "Functional Collision" (A->B Mutation).
+*   **Scenario:** Two cryptographic keys with different structures (1-bit difference) but identical functional fingerprints.
+
+![Anomaly Detection](04_Palimpsest_Anomaly_Detection_Log.png)
 
 ---
 
