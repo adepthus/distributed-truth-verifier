@@ -24,25 +24,37 @@ The architecture is governed by a single, inviolable equation:
 
 ---
 
+## 📸 Execution Evidence (See `/doc` for full logs)
+
+### 1. Project xAiD: System Boot Sequence
+*The Veritas Swarm suppressing sycophantic noise in real-time.*
+![Boot Sequence](doc/00_xAiD_System_Boot_Sequence.gif)
+
+### 2. Proof of Liveness: The "Triple Block" Event
+*System anchoring to Bitcoin Mainnet blocks #924601, #924602, #924603 in <2 minutes.*
+![Triple Block](doc/01_Veritas_Live_Triple_Block_Event.png)
+
+---
+
 ## 🏗️ System Architecture: The Hybrid Suite
 
 The `/production` directory contains the complete **Veritas Epistemic Suite**, combining a Neural Decision Kernel with Deterministic Logic Modules.
 
 ### 1. The Neural Kernel ("The Brain")
-*   **File:** `production/veritas_engine.py`
-*   **Tech:** PyTorch, Embeddings, Tensors.
-*   **Function:** A specialized Transformer architecture implementing the **Compassion Gate**. It models the recipient's psychological state (16-dimensional tensor) to decide *when* and *how* to reveal the truth. It includes the **Canonical Hash** protection mechanism.
+*   **File:** `production/veritas_engine_v4.py` (New!)
+*   **Tech:** PyTorch, DistilBERT, Cross-Attention.
+*   **Function:** A neural inference pipeline that injects recipient psychological state (16D tensor) directly into BERT hidden states via Cross-Attention, enabling context-aware truth delivery.
 
 ### 2. The Logic Modules ("The Tools")
 These pure-Python modules provide the mathematical "ground truth" for the Kernel.
 
 | Module | File | Key Innovation |
 | :--- | :--- | :--- |
-| **Ockham's Gyroscope** | `veritas_ockham.py` | **Solves the "Bureaucracy Paradox".** Uses a weighted formula (`Density*4 - Entropy`) to penalize low-information, high-smoothness text (hallucinations/corporate speak) and reward high-density facts. |
+| **Ockham's Gyroscope (Neural)** | `veritas_ockham_v4.py` | **Neural Upgrade.** Replaces heuristics with **Sentence-BERT** & **Spacy NER**. Calculates semantic proximity to truth axioms via vector embeddings. |
+| **Ockham's Gyroscope (Light)** | `veritas_ockham.py` | **The Physics Engine.** Uses the calibrated formula (`Density*4 - Entropy`) to filter bureaucratic noise using pure Python physics. |
 | **Veritas Swarm** | `veritas_swarm.py` | **Sybil Resistance.** A consensus mechanism where vote weight is determined by the *informational energy* of the claim. Proves that 1 honest node > 3 hallucinating bots. |
-| **Live Anchor** | `veritas_live.py` | **Proof-of-Existence.** Connects to the **Bitcoin Mainnet** (via Mempool API) to salt epistemic commitments with the latest block hash, making the timeline of discovery immutable. |
+| **Live Anchor** | `veritas_live.py` | **Proof-of-Existence.** Connects to the **Bitcoin Mainnet** (via Mempool API) to salt epistemic commitments with the latest block hash. |
 | **Palimpsest Scanner** | `veritas_palimpsest.py` | **Anomaly Detection.** Scans for "functional collisions" (A<->B mutations) in synthetic data streams, detecting when reality has been subtly overwritten. |
-
 ---
 
 ## 🚀 Quick Start
@@ -54,17 +66,23 @@ To verify the integrity of this repository and generate a live cryptographic com
     pip install -r production/requirements.txt
     ```
 
-2.  **Run the Live Anchor:**
+2.  **Run the Live Anchor (Bitcoin Mainnet):**
     ```bash
     python production/veritas_live.py
     ```
-    *This will generate a SHA-256 hash anchored to the current Bitcoin Block Height.*
+    *Generates a SHA-256 hash anchored to the current Bitcoin Block Height.*
 
-3.  **Run the Swarm Simulation:**
+3.  **Run the Adversarial Benchmark:**
     ```bash
     python production/veritas_swarm.py
     ```
-    *Watch how the Semantic Density algorithm defeats a swarm of hallucinating agents.*
+    *Demonstrates how the v3.6 Ockham Physics engine achieves a 100% Truth Win Rate against hallucinators.*
+
+4.  **Run the Neural Evaluation (Demo):**
+    ```bash
+    python production/veritas_swarm_v4_demo.py
+    ```
+    *See the Neural Ockham Engine (Spacy + BERT) scoring agents in real-time.*
 
 ---
 
