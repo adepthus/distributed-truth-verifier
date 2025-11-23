@@ -58,6 +58,13 @@ These pure-Python modules provide the mathematical "ground truth" for the Kernel
 | **Veritas Swarm** | `veritas_swarm.py` | **Sybil Resistance.** A consensus mechanism where vote weight is determined by the *informational energy* of the claim. Proves that 1 honest node > 3 hallucinating bots. |
 | **Live Anchor** | `veritas_live.py` | **Proof-of-Existence.** Connects to the **Bitcoin Mainnet** (via Mempool API) to salt epistemic commitments with the latest block hash. |
 | **Palimpsest Scanner** | `veritas_palimpsest.py` | **Anomaly Detection.** Scans for "functional collisions" (A<->B mutations) in synthetic data streams, detecting when reality has been subtly overwritten. |
+
+---
+
+### 3. The Inquisitor Protocol (Active Defense)
+*Neural Engine is naive. The Oracle is not. Watch the system detect a "High-Density Lie" (Fake SHA-512 claim).*
+![Inquisitor GIF](doc/11_Veritas_v5_Inquisitor_Active_Defense.gif)
+
 ---
 
 ## 🚀 Quick Start
