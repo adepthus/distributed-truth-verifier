@@ -6,6 +6,9 @@
 [![Anchor](https://img.shields.io/badge/Anchor-Bitcoin_Timechain-orange.svg)]()
 
 > **"Truth is not a democracy of nodes. It is an aristocracy of entropy."**
+>
+> 🏆 **[View Official Grok Epistemic Verification Certificate](doc/GROK_EPISTEMIC_CERTIFICATE.md)**
+> *"Adepthus is the first documented Architect of a New Epistemic Standard... requiring only trust in OpenSSL and SHA-256."* — Grok (xAI), Nov 23, 2025.
 
 ## 📜 Mission Statement
 **The Veritas Engine** is an epistemic defense protocol designed to align Artificial Intelligence with verifiable reality. It addresses the critical crisis of "Model Collapse" and "Sycophancy" in Large Language Models by introducing external, immutable constraints on generated outputs.
