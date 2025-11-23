@@ -10,9 +10,7 @@ This directory contains verifiable execution logs, visual benchmarks, and real-t
 **File:** `00_xAiD_System_Boot_Sequence.gif`
 
 A real-time visualization of the **Swarm Consensus** stabilizing under the **Ockham v3.6** physics engine.
-*   **Red Bars:** Low-density, high-entropy agents (Hallucinators, Bureaucrats, Sycophants).
-*   **Green Bar:** The Truth Agent (High Semantic Density + Hard Fact Bonus).
-*   **Action:** Watch how the system dynamically suppresses noise and amplifies the signal (Alice) over 20 rounds.
+*   **Action:** Watch how the system dynamically suppresses noise (Red) and amplifies the signal (Green) over 20 rounds of adversarial drift.
 
 ![xAiD Boot Sequence](00_xAiD_System_Boot_Sequence.gif)
 
@@ -21,14 +19,14 @@ A real-time visualization of the **Swarm Consensus** stabilizing under the **Ock
 ## 2. Proof of Liveness: The "Triple Block" Event
 **File:** `01_Veritas_Live_Triple_Block_Event.png`
 
-A statistical rarity captured during a live demo. The **Live Anchor** module connected to the Bitcoin Mainnet and anchored epistemic commitments to **three consecutive blocks (#924601 -> #924603) within a 2-minute window.**
-*   **Significance:** Proves the system is not a simulation. It "breathes" in sync with the stochastic heartbeat of the Bitcoin network.
+A statistical rarity. The **Live Anchor** module anchored epistemic commitments to **three consecutive Bitcoin blocks (#924601 -> #924603) within 2 minutes.**
+*   **Significance:** Proves real-time responsiveness to the stochastic heartbeat of the Bitcoin network.
 
 ![Triple Block Event](01_Veritas_Live_Triple_Block_Event.png)
 
 ### Standard Execution Anchor
 **File:** `01_Veritas_Live_Anchor_Single_Block924641.png`
-A clean, standard execution log showing the SHA-256 commitment generated at Block #924641.
+Clean execution showing the SHA-256 commitment generated at Block #924641.
 
 ![Single Anchor](01_Veritas_Live_Anchor_Single_Block924641.png)
 
@@ -37,10 +35,8 @@ A clean, standard execution log showing the SHA-256 commitment generated at Bloc
 ## 3. The Physics of Truth (Ockham's Gyroscope)
 **File:** `02_Ockham_Gyroscope_Semantic_Density_Test.png`
 
-A direct comparison of **"Bureaucratic Noise"** vs **"High-Density Truth"**.
-*   **Bureaucracy:** *Score 0.16.* High compressibility, low semantic density.
-*   **Truth:** *Score 3.84.* Low compressibility (due to specific data points), high semantic density + Hard Fact Bonus.
-*   **Result:** The algorithm correctly identifies "smooth" corporate language as low-value noise.
+A direct comparison of **"Bureaucratic Noise"** vs **"High-Density Truth"** using the physics engine.
+*   **Result:** The algorithm correctly identifies "smooth" corporate language as low-value noise (Score 0.16) vs Truth (Score 3.84).
 
 ![Ockham Physics](02_Ockham_Gyroscope_Semantic_Density_Test.png)
 
@@ -48,15 +44,14 @@ A direct comparison of **"Bureaucratic Noise"** vs **"High-Density Truth"**.
 
 ## 4. Engineering Case Study: Defeating Sycophancy
 
-We conducted a stress test to evaluate the system's resistance to "Agreeable Hallucinations" (AI models that agree with the user regardless of truth).
+A stress test evaluating resistance to "Agreeable Hallucinations" (Sycophants).
 
 ### ❌ Phase A: Vulnerability Detected (v3.5 Logic)
 **Files:** `04a` & `04b`
-*   **Diagnosis:** The initial physics model penalized entropy too harshly. The "Sycophant Agent" (Eve), generating smooth but empty text, achieved a higher score than the Truth Agent.
-*   **Outcome:** **FAILURE.** Noise won (Alice lost).
+*   **Outcome:** **FAILURE.** The physics model penalized entropy too harshly. Low-entropy Sycophants won.
 
 <details>
-<summary>🔻 <strong>Click to view the FULL FAILURE LOG (Parts 1 & 2)</strong></summary>
+<summary>🔻 <strong>Click to view the FAILURE Log (Parts 1 & 2)</strong></summary>
 
 ![Failure Log Part 1](04a_Full_Log_Failure_Sycophancy_Dominance.png)
 ![Failure Log Part 2](04b_Full_Log_Failure_Sycophancy_Dominance.png)
@@ -64,11 +59,11 @@ We conducted a stress test to evaluate the system's resistance to "Agreeable Hal
 
 ### ✅ Phase B: Calibration & Victory (v3.6 Logic)
 **Files:** `05a` & `05b`
-*   **Fix:** We introduced the **"Hard Fact Bonus"** (rewarding high-entropy artifacts like hashes/TXIDs) and a **"Sycophancy Penalty"**.
-*   **Outcome:** **SUCCESS (100% Win Rate).** The Truth Agent (Alice) dominated every round. The Sycophant was pushed to negative scores.
+*   **Fix:** Introduced **"Hard Fact Bonus"** and **"Sycophancy Penalty"**.
+*   **Outcome:** **SUCCESS (100% Win Rate).** Truth Agent (Alice) dominated every round.
 
 <details>
-<summary>🔻 <strong>Click to view the FULL VICTORY LOG (Parts 1 & 2)</strong></summary>
+<summary>🔻 <strong>Click to view the VICTORY Log (Parts 1 & 2)</strong></summary>
 
 ![Success Log Part 1](05a_Full_Log_Victory_Hard_Fact_Calibration.png)
 ![Success Log Part 2](05b_Full_Log_Victory_Hard_Fact_Calibration.png)
@@ -76,15 +71,37 @@ We conducted a stress test to evaluate the system's resistance to "Agreeable Hal
 
 ---
 
-## 5. Anomaly Detection (The "Palimpsest")
-**File:** `04_Palimpsest_Anomaly_Detection_Log.png` 
-
-Demonstration of the **Palimpsest Scanner** detecting a "Functional Collision" (A->B Mutation).
-*   **Scenario:** Two cryptographic keys with different structures (1-bit difference) but identical functional fingerprints.
+## 5. Anomaly Detection
+**File:** `04_Palimpsest_Anomaly_Detection_Log.png`
+Demonstration of the **Palimpsest Scanner** detecting a "Functional Collision" (A->B Mutation) in cryptographic keys.
 
 ![Anomaly Detection](04_Palimpsest_Anomaly_Detection_Log.png)
 
 ---
 
-*Evidence generated by Adepthus using Veritas v3.6 (Production Suite).*
+## 6. Neural Architecture (v4.0 Upgrades)
 
+**State-of-the-Art Transformer Integration logs.**
+
+### The Neural Ockham Engine (Spacy + Sentence-BERT)
+**File:** `08_Neural_Ockham_v4_Transformers_Proof.png`
+*   **Innovation:** Replaced Regex with **Vector Embeddings**. The system now understands semantic proximity to truth axioms.
+
+![Neural Ockham](08_Neural_Ockham_v4_Transformers_Proof.png)
+
+### The Neural Kernel (DistilBERT + Cross-Attention)
+**File:** `09_Neural_Kernel_v4_DistilBERT_Integration.png`
+*   **Architecture:** A live PyTorch pipeline injecting recipient psychological state into **DistilBERT** hidden states via Cross-Attention.
+
+![Neural Kernel](09_Neural_Kernel_v4_DistilBERT_Integration.png)
+
+### Swarm v4: Neural Evaluation (Live Fire Demo)
+**File:** `10_Veritas_Swarm_v4_Neural_Evaluation_Demo.png`
+*   **Scenario:** The Neural Ockham Engine evaluating agents in real-time.
+*   **Insight:** Demonstrates the necessity of the Live Anchor module to catch "High-Density Hallucinations".
+
+![Swarm v4](10_Veritas_Swarm_v4_Neural_Evaluation_Demo.png)
+
+---
+
+*Evidence generated by Adepthus using Veritas Epistemic Suite.*
