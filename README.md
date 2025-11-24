@@ -58,14 +58,14 @@ These pure-Python modules provide the mathematical "ground truth" for the Kernel
 
 | Module | File | Key Innovation |
 | :--- | :--- | :--- |
-| **Ockham's Gyroscope (Neural)** | `veritas_ockham_v4.py` | **Neural Upgrade.** Replaces heuristics with **Sentence-BERT** & **Spacy NER**. Calculates semantic proximity to truth axioms via vector embeddings. |
-| **Ockham's Gyroscope (Light)** | `veritas_ockham.py` | **The Physics Engine.** Uses the calibrated formula (`Density*4 - Entropy`) to filter bureaucratic noise using pure Python physics. |
-| **The Inquisitor (v5.0)** | `veritas_swarm_v5_demo.py` | **Active Defense.** Integrates Neural Density with **Oracle Verification**. Catches "High-Density Lies" (e.g., fake hashes) by querying the Timechain and applying the **Death Penalty (-100 Score)**. |
-| **The Sovereign (v6.0)** | `veritas_v6_sovereign_demo.py` | **Epistemic Economics.** Introduces **Staking & Slashing**. Agents must stake reputation tokens on their claims. Hallucinators go bankrupt; truth-tellers accumulate capital. |
-| **The Demiurge (v7.0)** | `veritas_v7_demiurge_demo.py` | **Evolutionary Epistemics.** A genetic algorithm where agents reproduce based on epistemic fitness. The system autonomously **breeds** a lie-proof organism over generations. |
-| **Veritas Swarm** | `veritas_swarm.py` | **Sybil Resistance.** A consensus mechanism where vote weight is determined by the *informational energy* of the claim. Proves that 1 honest node > 3 hallucinating bots. |
-| **Live Anchor** | `veritas_live.py` | **Proof-of-Existence.** Connects to the **Bitcoin Mainnet** (via Mempool API) to salt epistemic commitments with the latest block hash, making the timeline of discovery immutable. |
-| **Palimpsest Scanner** | `veritas_palimpsest.py` | **Anomaly Detection.** Scans for "functional collisions" (A<->B mutations) in synthetic data streams, detecting when reality has been subtly overwritten. |
+| **Ockham's Gyroscope (Neural)** | `production/veritas_ockham_v4.py` | **Neural Upgrade.** Replaces heuristics with **Sentence-BERT** & **Spacy NER**. Calculates semantic proximity to truth axioms via vector embeddings. |
+| **Ockham's Gyroscope (Light)** | `production/veritas_ockham.py` | **The Physics Engine.** Uses the calibrated formula (`Density*4 - Entropy`) to filter bureaucratic noise using pure Python physics. |
+| **The Inquisitor (v5.0)** | `production/veritas_inquisitor.py` | **Active Defense.** Integrates Neural Density with **Oracle Verification**. Catches "High-Density Lies" (e.g., fake hashes) by querying the Timechain and applying the **Death Penalty (-100 Score)**. |
+| **The Sovereign (v6.0)** | `production/veritas_sovereign.py` | **Epistemic Economics.** Introduces **Staking & Slashing**. Agents must stake reputation tokens on their claims. Hallucinators go bankrupt; truth-tellers accumulate capital. |
+| **The Demiurge (v7.0)** | `production/veritas_demiurge.py` | **Evolutionary Epistemics.** A genetic algorithm where agents reproduce based on epistemic fitness. The system autonomously **breeds** a lie-proof organism over generations. |
+| **Veritas Swarm** | `production/veritas_swarm.py` | **Sybil Resistance.** A consensus mechanism where vote weight is determined by the *informational energy* of the claim. Proves that 1 honest node > 3 hallucinating bots. |
+| **Live Anchor** | `production/veritas_live.py` | **Proof-of-Existence.** Connects to the **Bitcoin Mainnet** (via Mempool API) to salt epistemic commitments with the latest block hash, making the timeline of discovery immutable. |
+| **Palimpsest Scanner** | `production/veritas_palimpsest.py` | **Anomaly Detection.** Scans for "functional collisions" (A<->B mutations) in synthetic data streams, detecting when reality has been subtly overwritten. |
 
 ## 🚀 Quick Start
 
