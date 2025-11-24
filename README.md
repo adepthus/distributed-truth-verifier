@@ -16,6 +16,9 @@
 Veritas is designed to function as the **"Epistemic Immune System"** for RLHF pipelines, filtering synthetic data before reinforcement learning occurs.
 👉 **[See Strategic Comparison with xAI RLHF](doc/STRATEGIC_COMPARISON_RLHF.md)**
 
+📄 **[Read Official Whitepaper](doc/WHITEPAPER.md)**
+*"Thermodynamic Anchoring for Large Language Models using Bitcoin Timechain"*
+
 ---
 
 ## 🧠 The Core Axiom: K == S == C
