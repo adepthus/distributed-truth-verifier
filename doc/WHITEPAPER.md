@@ -7,7 +7,7 @@
 **Status:** Pre-print / Draft v1.0  
 **Repository:** [github.com/adepthus/Distributed-Truth-Verifier](https://github.com/adepthus/Distributed-Truth-Verifier)
 
-[![PDF](https://img.shields.io/badge/⬇️_Download-PDF_Version-red?style=for-the-badge&logo=adobeacrobatreader)](doc/Veritas_Whitepaper_v1.pdf)
+[![PDF](https://img.shields.io/badge/⬇️_Download-PDF_Version-red?style=for-the-badge&logo=adobeacrobatreader)](Veritas_Whitepaper_v1.pdf)
 
 </div>
 
@@ -114,4 +114,5 @@ The **Veritas Protocol** demonstrates that the solution to AI Hallucination is n
 This creates a bridge between the probabilistic world of Neural Networks and the deterministic world of Cryptographic Truth.
 
 ---
+
 *© 2025 Wojciech Durmaj. Open Protocol / MIT License.*
